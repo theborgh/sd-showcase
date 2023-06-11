@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className="flex bg-gray-200 h-10">
       <div className="flex">
-        <Link href="/">
+        <Link href="/" passHref>
           <Image src={logo} alt="logo" className="h-10 w-10" />
         </Link>
         Stable Diffusion Showcase
